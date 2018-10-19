@@ -20,7 +20,7 @@ def test_basic_numbers(roman_number, arabic_number):
     assert arabic_number == roman_to_arabic(roman_number)
 
 
-@pytest.mark.skip()
+#@pytest.mark.skip()
 @pytest.mark.parametrize(
     'roman_number, arabic_number', [
         ('II', 2),
@@ -33,7 +33,7 @@ def test_equal_numbers(roman_number, arabic_number):
     assert arabic_number == roman_to_arabic(roman_number)
 
 
-@pytest.mark.skip()
+#@pytest.mark.skip()
 @pytest.mark.parametrize(
     'roman_number, arabic_number', [
         ('VI', 6),
@@ -46,7 +46,7 @@ def test_addition_sequence_numbers(roman_number, arabic_number):
     assert arabic_number == roman_to_arabic(roman_number)
 
 
-@pytest.mark.skip()
+#@pytest.mark.skip()
 @pytest.mark.parametrize(
     'roman_number, arabic_number', [
         ('IV', 4),
@@ -59,7 +59,7 @@ def test_subtract_sequence_numbers(roman_number, arabic_number):
     assert arabic_number == roman_to_arabic(roman_number)
 
 
-@pytest.mark.skip()
+#@pytest.mark.skip()
 @pytest.mark.parametrize(
     'roman_number, arabic_number', [
         ('MCMV', 1905),
