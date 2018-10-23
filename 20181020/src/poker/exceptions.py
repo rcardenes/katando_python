@@ -1,0 +1,2 @@
+class DuplicatedCardError(Exception):
+    pass
